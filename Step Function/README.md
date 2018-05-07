@@ -55,3 +55,27 @@ Non-Primative Data Structures
     * *Sets* are a bit like lists but every element is unique. Use them when you need to quickly perform membership testing, remove duplicates or perform set operations like intersection, union or difference.
 
 The choice between using a List or a Dictionary is a Trade-off between space and time.
+
+### Day - 4
+### Material Covered
+
+
+*Functions* - A Function is a bundled set of instructions that you want to use repeatedly or that, because of their complexity, are better self-contained in a sub-program and called only when needed.
+
+They are written to carry out a specified task. To carry out that specific task, the function might or might not need multiple inputs. When the task is carried out, the function can or can not return one or more values
+
+*The Two Common Python Functions*
+Built-in functions, such as help(), print() to print an object to the terminal, len() to get the length of a sequence data type, etc.
+
+
+User-Defined Functions (UDFs), which are functions that users create to help them out. These functions are declared with *def* before the name of the function. Where *def* here stands for define.
+
+
+*args & **kwargs
+The special syntax, *args and **kwargs in function definitions is used to pass a variable number of arguments to a function.
+
+The single asterisk form (*args) is used to pass a non-keyworded, variable-length arguments , and the double asterisk form (**kwargs) is used to pass a keyworded, variable-length arguments.
+
+*args - Is packed into a tuple
+
+**kwargs - Is packed into a dictionary
