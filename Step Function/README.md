@@ -13,7 +13,7 @@ in three weeks.
    - Sequence (string, list)
 - Syntax  and Style
 
-
+### Day - 2
 ### Material Covered
 
 - Logic
@@ -31,3 +31,27 @@ in three weeks.
 - Exercise:
  - Guessing Game
  - Rolling the dice
+
+### Day - 3
+### Material Covered
+
+Non-Primative Data Structures
+
+  - Dictionaries
+  - Tuples
+
+*Cheat sheet*
+
+     * *Lists* should be your default choice. You can put anything in there and they support most operations you'll be interested in, even if they're not always the fastest option.
+
+    If you're going to use something other than a list, make sure you know exactly why!
+
+    * *Dictionaries* ("dicts") should be your second choice. A dict maps keys to values.
+
+    For example, a person dict might contain the keys name, age and postcode, with suitable values for each.
+
+    * *Tuples* are basically immutable lists. Use them when you don't want your data to change.
+
+    * *Sets* are a bit like lists but every element is unique. Use them when you need to quickly perform membership testing, remove duplicates or perform set operations like intersection, union or difference.
+
+The choice between using a List or a Dictionary is a Trade-off between space and time.
